@@ -62,7 +62,7 @@ h1 {
   height: 100%;
 }
 
-/* Desktop styles */
+
 @media (min-width: 1440px) {
   body {
     font-size: 18px;
