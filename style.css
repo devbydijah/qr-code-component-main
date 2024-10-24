@@ -1,107 +1,102 @@
+/* Global styles */
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  margin-top: 10px;
-  color: hsl(216, 15%, 48%);
 }
 
+/* Image styling */
 img {
-  height: 262px;
-  width: 262px;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 7px;
+  margin: 0 auto; 
+  border-radius: 10px;
 }
 
+/* Heading styling */
 h1 {
   color: hsl(218, 44%, 22%);
   text-align: center;
-  font-optical-sizing: auto;
-  font-style: bold;
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.outfit-uniquifier {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-optical-sizing: auto;
-  font-style: normal;
-  text-align: center;
-}
-
-.outfit-uniquifier p {
-  font-size: 16px;
-  font-weight: 300;
-  margin-top: 10px;
+/* Paragraph styling */
+p {
   color: hsl(216, 15%, 48%);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
+/* Container styling */
 .container {
   border: 1px solid hsl(0, 0%, 90%);
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
-  padding: 15px;
-  margin: 100px auto;
-  max-width: 260px;
+  margin: 5rem auto;
   text-align: center;
-  height: 100%;
 }
 
-
+/* Desktop styles */
 @media (min-width: 1440px) {
-  body {
-    font-size: 18px;
-  }
-
   img {
-    height: 300px;
-    width: 300px;
+    max-width: 300px;
   }
 
   h1 {
-    font-size: 24px;
-    margin-top: 30px;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
   }
 
   .container {
-    max-width: 400px;
-    padding: 20px;
+    max-width: 300px;
+    padding: 1.25rem;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1439px) {
+  img {
+    max-width: 300px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin-top: 1.75rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  .container {
+    max-width: 300px;
+    padding: 1.25rem;
   }
 }
 
 /* Mobile styles */
 @media (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-
-  img {
-    height: 200px;
-    width: 200px;
-  }
-
   h1 {
-    font-size: 18px;
-    margin-top: 15px;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 0.875rem;
   }
 
   .container {
     max-width: 220px;
-    padding: 10px;
+    padding: 0.625rem;
   }
 }
