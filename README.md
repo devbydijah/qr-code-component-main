@@ -12,6 +12,7 @@ This is my solution for the [QR code component challenge on Frontend Mentor](htt
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
+  - [Links](#Links)
 
 ## Overview
 
@@ -23,8 +24,8 @@ This screenshot shows the completed QR code component. The component is centered
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com) - The repository containing the source code and documentation for the project.
-- [Live Site URL](https://your-live-site-url.com) - The deployed version of the project, accessible to users.
+- [Solution URL](https://github.com/devbydijah/qr-code-component-main) - The repository containing the source code and documentation for the project.
+- [Live Site URL](https://devbydijah.github.io/qr-code-component-main/) - The deployed version of the project, accessible to users.
 
 ## My Process
 
