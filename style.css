@@ -1,36 +1,12 @@
-/* Global styles */
 body {
   background-color: hsl(212, 45%, 89%);
-  font-family: "Outfit", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0; 
 }
 
-/* Image styling */
-img {
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  display: block;
-  margin: 0 auto; 
-  border-radius: 10px;
-}
-
-/* Heading styling */
-h1 {
-  color: hsl(218, 44%, 22%);
-  text-align: center;
-  font-weight: 700;
-  font-size: 1.5vw;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Paragraph styling */
 p {
   font-size: 1vw;
   font-family: "Outfit", sans-serif;
@@ -43,7 +19,17 @@ p {
   text-align: center;
 }
 
-/* Container styling */
+h1 {
+  font-size: 1.5vw;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 120%;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -54,69 +40,12 @@ p {
   border-radius: 20px;
 }
 
-/* Attribution styling */
-.attribution {
-  font-size: 0.875rem;
-  text-align: center;
-  margin-top: 1rem;
-  color: hsl(216, 15%, 48%);
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-/* Desktop styles */
-@media (min-width: 1440px) {
-  img {
-    max-width: 300px;
-  }
-
-  h1 {
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
-
-  p {
-    font-size: 1.125rem;
-  }
-
-  .container {
-    max-width: 300px;
-    padding: 1.25rem;
-  }
-}
-
-/* Tablet styles */
-@media (min-width: 768px) and (max-width: 1439px) {
-  img {
-    max-width: 300px;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-    margin-top: 1.75rem;
-  }
-
-  p {
-    font-size: 1.125rem;
-  }
-
-  .container {
-    max-width: 300px;
-    padding: 1.25rem;
-  }
-}
-
-/* Mobile styles */
-@media (max-width: 767px) {
-  h1 {
-    font-size: 1.25rem;
-    margin-top: 1rem;
-  }
-
-  p {
-    font-size: 0.875rem;
-  }
-
-  .container {
-    max-width: 220px;
-    padding: 0.625rem;
-  }
+.qr-info {
+  padding: 10px;
 }
